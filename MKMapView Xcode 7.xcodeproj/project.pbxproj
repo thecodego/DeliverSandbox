@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69CB5C961C52B6720018E45A /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CB5C951C52B6720018E45A /* Artwork.swift */; };
 		78DF33E31B6459040065B6B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DF33E21B6459040065B6B1 /* AppDelegate.swift */; };
 		78DF33E51B6459040065B6B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DF33E41B6459040065B6B1 /* ViewController.swift */; };
 		78DF33E81B6459040065B6B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78DF33E61B6459040065B6B1 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69CB5C951C52B6720018E45A /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		78DF33DF1B6459040065B6B1 /* MKMapView Xcode 7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MKMapView Xcode 7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DF33E21B6459040065B6B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78DF33E41B6459040065B6B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				78DF33E21B6459040065B6B1 /* AppDelegate.swift */,
 				78DF33E41B6459040065B6B1 /* ViewController.swift */,
+				69CB5C951C52B6720018E45A /* Artwork.swift */,
 				78DF33E61B6459040065B6B1 /* Main.storyboard */,
 				78DF33E91B6459040065B6B1 /* Assets.xcassets */,
 				78DF33EB1B6459040065B6B1 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78DF33E51B6459040065B6B1 /* ViewController.swift in Sources */,
+				69CB5C961C52B6720018E45A /* Artwork.swift in Sources */,
 				78DF33E31B6459040065B6B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +485,7 @@
 				78DF34091B6459040065B6B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78DF340A1B6459040065B6B1 /* Build configuration list for PBXNativeTarget "MKMapView Xcode 7Tests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +494,7 @@
 				78DF340C1B6459040065B6B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78DF340D1B6459040065B6B1 /* Build configuration list for PBXNativeTarget "MKMapView Xcode 7UITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +503,7 @@
 				78DF340F1B6459040065B6B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
